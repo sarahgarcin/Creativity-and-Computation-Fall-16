@@ -1,0 +1,48 @@
+// I M P O R T
+@import "_variables.scss";
+
+
+html {
+	margin:0;
+}
+
+body,html {
+	height:100%;
+}
+
+li{list-style: none;}
+
+body {
+  margin: 0;
+  color: #000;
+  font-size: 1em;
+}
+
+
+
+// VIDEO - TAKE PICTURE
+video {
+  height: auto;
+  max-height: 100%;
+  width: 100%;
+}
+
+
+.video-view {
+  position: relative;
+  height: 100%;
+  width: 50%;
+}
+
+.output[src=''] {
+  display: none;
+}
+
+.preview {
+  position: relative;
+  width: 50%;
+
+  .output {
+    padding-bottom:   10px;
+  }
+}
